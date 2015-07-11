@@ -1,0 +1,6 @@
+# Install cython.
+puts-step "Installing cython"
+
+/app/.heroku/python/bin/pip install cython --exists-action=w --src=./.heroku/src --allow-all-external --disable-pip-version-check --no-cache-dir | cleanup | indent
+
+echo

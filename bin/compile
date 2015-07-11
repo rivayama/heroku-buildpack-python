@@ -177,6 +177,9 @@ source $BIN_DIR/steps/cryptography
 # GDAL support.
 source $BIN_DIR/steps/gdal
 
+# Cython support.
+source $BIN_DIR/steps/cython
+
 # Install dependencies with Pip.
 source $BIN_DIR/steps/pip-install
 
